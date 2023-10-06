@@ -148,7 +148,12 @@ header .links li:not(:last-child) a{
 .featurs .container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px 20px;
+    grid-gap: 20px ;
+}
+.featurs .feat{
+   padding: 20px;
+   margin-left: 43%;
+   width: 300px;
 }
 .featurs .container i{
     color: var(--main-color);
